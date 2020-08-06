@@ -8,7 +8,7 @@ public class GettingMoreInfoAboutResultSet {
 
     public static void main(String[] args) throws SQLException {
 
-        String connectionStr = "jdbc:oracle:thin:@100.26.166.36:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@54.210.150.131:1521:XE";
         String username = "hr";
         String password = "hr";
         Connection conn = DriverManager.getConnection(connectionStr, username, password);
