@@ -1,4 +1,6 @@
-package com.cybertek.day2;
+package com.cybertek.jdbc.day2;
+
+import com.cybertek.jdbc.utility.DB_Utility;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

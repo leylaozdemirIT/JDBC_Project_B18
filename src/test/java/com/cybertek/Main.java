@@ -1,11 +1,11 @@
-package com.cybertek.jdbc;
+package com.cybertek;
 import java.sql.*;
 
 public class Main {
 
     public static void main(String[] args) throws SQLException {
         //Replace the IP with your own IP address
-        String connectionStr = "jdbc:oracle:thin:@100.26.166.36:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@3.81.143.40:1521:XE";
         String username = "hr";
         String password = "hr";
 

@@ -1,4 +1,4 @@
-package com.cybertek.jdbc;
+package com.cybertek;
 
 import org.junit.Test;
 
@@ -11,8 +11,8 @@ public class TestConnection {
     @Test
     public void connectionTest(){
         System.out.println("Testing connection");
-        String connectionStr = "jdbc:oracle:thin:@100.26.166.36:1521:XE";
-        String username = "har";
+        String connectionStr = "jdbc:oracle:thin:@3.81.143.40:1521:XE";
+        String username = "hr";
         String password = "hr";
 
         // GETTING DATABASE CONNECTION TO THE SERVER

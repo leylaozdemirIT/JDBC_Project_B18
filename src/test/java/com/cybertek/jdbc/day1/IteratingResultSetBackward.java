@@ -1,11 +1,11 @@
-package com.cybertek.day1;
+package com.cybertek.jdbc.day1;
 
 import java.sql.*;
 
 public class IteratingResultSetBackward {
 
     public static void main(String[] args) throws SQLException {
-        String connectionStr = "jdbc:oracle:thin:@54.210.150.131:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@3.81.143.40:1521:XE";
         String username = "hr";
         String password = "hr";
         Connection conn = DriverManager.getConnection(connectionStr, username, password);
